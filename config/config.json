@@ -1,0 +1,96 @@
+{
+  "metagraph": {
+    "id": "",
+    "name": "",
+    "version": "",
+    "default_restart_conditions": [
+      "SnapshotsStopped",
+      "UnhealthyNodes"
+    ],
+    "layers": {
+      "ml0": {
+        "ignore_layer": false,
+        "ports": {
+          "public": 9200,
+          "p2p": 9201,
+          "cli": 9202
+        },
+        "additional_env_variables": [],
+        "seedlist": {}
+      },
+      "cl1": {
+        "ignore_layer": false,
+        "ports": {
+          "public": 9300,
+          "p2p": 9301,
+          "cli": 9302
+        },
+        "additional_env_variables": [],
+        "seedlist": {}
+      },
+      "dl1": {
+        "ignore_layer": false,
+        "ports": {
+          "public": 9400,
+          "p2p": 9401,
+          "cli": 9402
+        },
+        "additional_env_variables": [],
+        "seedlist": {}
+      }
+    },
+    "nodes": [
+      {
+        "ip": "",
+        "username": "",
+        "privateKeyPath": "",
+        "key_file": {
+          "name": "",
+          "alias": "",
+          "password": ""
+        }
+      },
+      {
+        "ip": "",
+        "username": "",
+        "privateKeyPath": "",
+        "key_file": {
+          "name": "",
+          "alias": "",
+          "password": ""
+        }
+      },
+      {
+        "ip": "",
+        "username": "",
+        "privateKeyPath": "",
+        "key_file": {
+          "name": "",
+          "alias": "",
+          "password": ""
+        }
+      }
+    ]
+  },
+  "network": {
+    "name": "mainnet|integrationnet",
+    "nodes": [
+      {
+        "ip": "",
+        "port": port_as_number,
+        "id": ""
+      },
+      {
+        "ip": "",
+        "port": port_as_number,
+        "id": ""
+      },
+      {
+        "ip": "",
+        "port": port_as_number,
+        "id": ""
+      },
+    ]
+  },
+  "check_healthy_interval_in_minutes": 5
+}
