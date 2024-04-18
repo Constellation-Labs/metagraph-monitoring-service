@@ -77,19 +77,19 @@
     "nodes": [
       {
         "ip": "",
-        "port": port_as_number,
+        "port": "port_as_number",
         "id": ""
       },
       {
         "ip": "",
-        "port": port_as_number,
+        "port": "port_as_number",
         "id": ""
       },
       {
         "ip": "",
-        "port": port_as_number,
+        "port": "port_as_number",
         "id": ""
-      },
+      }
     ]
   },
   "check_healthy_interval_in_minutes": 5
