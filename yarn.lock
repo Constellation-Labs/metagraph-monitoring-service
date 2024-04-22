@@ -463,10 +463,10 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.6.0.tgz#ec6cd237440700bc23ca23087f513c75508958b0"
   integrity sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==
 
-"@constellation-network/metagraph-monitoring-service@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@constellation-network/metagraph-monitoring-service/-/metagraph-monitoring-service-0.1.1.tgz#732cd2b10ee07f301370edbeadb1dac2892220ab"
-  integrity sha512-k8flI2ZsLpfC5NRNdO48506QJi7APbi5fY6F4Ui0z1t9e2HHRyAZg1cJMqNMg1ZWQsAo3Zl8D1fAEQMWQGSBHA==
+"@constellation-network/metagraph-monitoring-service@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@constellation-network/metagraph-monitoring-service/-/metagraph-monitoring-service-0.1.2.tgz#5e60ba694e0df66c7a940f19d6e75e04235daa04"
+  integrity sha512-qQpaujgy2qb9yr/UyUoO5xCRjiFe/+0fH9d6R+ZUiKmxYd22mMV/pmSt6IPXPDr49wAEiln5CktPeax77wYKLQ==
   dependencies:
     "@aws-sdk/client-ssm" "^3.549.0"
     aws-sdk "^2.1594.0"

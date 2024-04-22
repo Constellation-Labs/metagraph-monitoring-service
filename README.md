@@ -132,24 +132,18 @@ You can also customize your restart conditions. Import and implement a custom re
 import { IRestartCondition } from '@constellation/metagraph-monitoring-service/interfaces';
 
 class MyCustomRestartCondition implements IRestartCondition {
-  name: string;
-  config: MonitoringConfigs;
-  sshServices: ISshService[];
-  metagraphService: IMetagraphService;
-  globalNetworkService: IGlobalNetworkService;
-  seedlistService: ISeedlistService;
-  logger: ILoggerService;
-  shouldRestart(): Promise<ShouldRestartInfo>;
-  triggerRestart(): Promise<void>;
 }
-const myCustomRestartCondition = new MyCustomRestartCondition();
+
 const monitoring = new MonitoringApp(
-  config,
-  options.force_restart,
-  options.dev_mode,
-  {},
-  [myCustomRestartCondition],
+    ...,
+    ...,
+    ...,
 );
+
+monitoring.configuration.setRestartConditions([
+  new MyCustomRestartCondition(monitoring.configuration),
+]);
+
 ```
 
 ## Running the service
