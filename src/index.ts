@@ -1,4 +1,4 @@
-import MonitoringApp from '@constellation/metagraph-monitoring-service';
+import MonitoringApp from '@constellation-network/metagraph-monitoring-service';
 import { program } from 'commander';
 
 import config from '@config/config.json';

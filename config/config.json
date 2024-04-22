@@ -43,6 +43,7 @@
       {
         "ip": "",
         "username": "",
+        "password": "",
         "privateKeyPath": "",
         "key_file": {
           "name": "",
@@ -53,6 +54,7 @@
       {
         "ip": "",
         "username": "",
+        "password": "",
         "privateKeyPath": "",
         "key_file": {
           "name": "",
@@ -63,6 +65,7 @@
       {
         "ip": "",
         "username": "",
+        "password": "",
         "privateKeyPath": "",
         "key_file": {
           "name": "",

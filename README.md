@@ -59,6 +59,8 @@ To run this service, you must provide the necessary configuration in the file: `
 	*  **`ip`**: IP address of the node.
 
 	*  **`username`**: Username for SSH access to the node.
+	
+  *  **`password`**: Password for SSH access to the node. You can remove this field if the node does not require a password for access.
 
 	*  **`privateKeyPath`**: Path to the private key for SSH, relative to the service's root directory. Example: `config/your_key_file.pem`.
 
