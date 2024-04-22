@@ -13,6 +13,7 @@
     "list-services": "pm2 list"
   },
   "dependencies": {
+    "@constellation-network/metagraph-monitoring-service": "^0.1.1",
     "commander": "^12.0.0",
     "typescript": "^5.4.5"
   },
