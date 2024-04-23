@@ -45,6 +45,7 @@
         "username": "ubuntu",
         "password": "my-password",
         "privateKeyPath": "config/my_key.pem",
+        "privateKeyPassword": "my-private-key-password",
         "key_file": {
           "name": "my-key-name.p12",
           "alias": "my-key-alias",
@@ -56,6 +57,7 @@
         "username": "ubuntu",
         "password": "my-password",
         "privateKeyPath": "config/my_key.pem",
+        "privateKeyPassword": "my-private-key-password",
         "key_file": {
           "name": "my-key-name.p12",
           "alias": "my-key-alias",
@@ -67,6 +69,7 @@
         "username": "ubuntu",
         "password": "my-password",
         "privateKeyPath": "config/my_key.pem",
+        "privateKeyPassword": "my-private-key-password",
         "key_file": {
           "name": "my-key-name.p12",
           "alias": "my-key-alias",

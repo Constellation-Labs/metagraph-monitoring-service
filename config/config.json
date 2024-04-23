@@ -45,6 +45,7 @@
         "username": "",
         "password": "",
         "privateKeyPath": "",
+        "privateKeyPassword": "",
         "key_file": {
           "name": "",
           "alias": "",
@@ -56,6 +57,7 @@
         "username": "",
         "password": "",
         "privateKeyPath": "",
+        "privateKeyPassword": "",
         "key_file": {
           "name": "",
           "alias": "",
@@ -67,6 +69,7 @@
         "username": "",
         "password": "",
         "privateKeyPath": "",
+        "privateKeyPassword": "",
         "key_file": {
           "name": "",
           "alias": "",
