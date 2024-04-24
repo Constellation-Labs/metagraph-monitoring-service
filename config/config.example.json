@@ -11,9 +11,9 @@
       "ml0": {
         "ignore_layer": false,
         "ports": {
-          "public": 9200,
-          "p2p": 9201,
-          "cli": 9202
+          "public": 9100,
+          "p2p": 9101,
+          "cli": 9102
         },
         "additional_env_variables": [],
         "seedlist": {}
@@ -21,9 +21,9 @@
       "cl1": {
         "ignore_layer": false,
         "ports": {
-          "public": 9300,
-          "p2p": 9301,
-          "cli": 9302
+          "public": 9200,
+          "p2p": 9201,
+          "cli": 9202
         },
         "additional_env_variables": [],
         "seedlist": {}
@@ -31,9 +31,9 @@
       "dl1": {
         "ignore_layer": true,
         "ports": {
-          "public": 9400,
-          "p2p": 9401,
-          "cli": 9402
+          "public": 9300,
+          "p2p": 9301,
+          "cli": 9302
         },
         "additional_env_variables": [],
         "seedlist": {}
