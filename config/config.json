@@ -7,6 +7,10 @@
       "SnapshotsStopped",
       "UnhealthyNodes"
     ],
+    "default_alert_conditions": [
+      "DiskSpaceLimit",
+      "OwnerWalletOutOfFunds"
+    ],
     "layers": {
       "ml0": {
         "ignore_layer": false,
@@ -98,5 +102,7 @@
       }
     ]
   },
-  "check_healthy_interval_in_minutes": 5
+  "check_healthy_interval_in_minutes": 5,
+  "min_disk_space_percent": 10,
+  "min_owner_wallet_balance": 10
 }
